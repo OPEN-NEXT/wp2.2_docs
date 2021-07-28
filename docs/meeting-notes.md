@@ -292,3 +292,64 @@ With @elies30, @jbon, @mkampik, and @penyuan, and Andres from Wikifactory.
   * Answer: Not really. Though we might be able to host with WP3.3/Open Source Ecology.
   * @mkampik: And Wikifactory will host their own implementation of the dashboard. And who knows, maybe hosting customised instances of the dashboard can be another thing for Wikifactory to offer!
 * Glad @jbon will still remain with Open!Next as an advisory board member! Looking forward to @jbon's input going forward.
+
+## Dashboard "statements" ideation meeting 2021-07-28T12:30Z
+
+With @moedn (Moe), @rafaellaantoniou (Rafaella), and @penyuan (Pen)
+
+* Today's meeting is about the concept of adding "statements to the dashboard" derived from raw data, e.g. "The last commit to this repository was 5 months ago" or "This project averaged 3.2 issue posts per day for the last month"; and second order inferences like "Over the last 12 months, the commit rate to this repository (e.g. # commits per week) has gone up by x" or "More people have contributed to this project this month than the previous 6 months combined!"
+* Moe kindly created a Markdown pad with our brainstorming here: https://md.opensourceecology.de/FStnpjBKToeIjneyUb8yWA?both
+* @moedn : What's question we want to resolve anyway?
+    * As a user, would I want to engage with the data? Design reuse?
+    * E.g. for a contribution/design reuse purpose, if there's active issue discussions then that might indicate a healthier project that I can be confident in reusing
+* @rafaellaantoniou:
+    * I think first step is defining strategy and purpose of doing this
+    * I feel like the statements should fit the goal e.g. want to help contributors decide whether to contribute, or to decide if they want to reuse
+    * Suggest coming up with a few user profiles first
+    * Also broader strategies
+        * E.g. linking gamification with these statements
+            * E.g. if you're a user of Wikifactory, you contribute to project. What if we have a system where you collected trophies for doing things, e.g. contribute to a project that has been inactive for three months
+                *  And for the project, the "statement" on the project goes from "inactive in 3 months" to "active" which might be an incentive for projects to say active
+                *  @moedn: Kind of like Stackoverflow's hot questions
+            *  E.g. if a goal is to learn skill
+                *  Filter project for "if you contribute to this project, you can get x badge"
+* Acknowledge that we're now more focused on serving an audience rather than just a general research question
+* Let's start with coming up with **user profiles**, the first first two below don't need commits/contributions data
+    * **Design reuse** -> "I want to develop my hardware, see if someone has solved this or a partial solution that I can reuse or get inspiration from, in the best case I can just replicate"
+    * **Replication** -> Just to buy or make a copy when you might not have the actual engineering skills
+    * **Help people find projects to contribute to**
+        * E.g. once people find some projects, the dashboard's info for each one help you evaluate your choices
+    * **Help people get recognition**
+        * E.g. gamification and badges, which can be tied to the other profiles above
+* @moedn: There's a decentralised digital CV conceived by Makernet Alliance, by Andrew Lamb
+    * Who was inspired by someone who walks into a fablab and asks "I'm looking for someone who knows x"
+    * @rafaellaantoniou:We can expand on this decentralised CV concept
+        * @penyuan: Erik's skills ontology certainly comes into play here
+* @rafaellaantoniou: As a term, "project health" is more accurate than "community health" and is more specific, @penyuan agrees
+* What we do should make distinction between dead project, done/mature, or inactive, or active
+* @moedn: On the topic of commits
+    * Mostly applicable to software
+    * But for hardware, might be harder to use use this as data because: 
+        * E.g. many mechanical engineering people don't even use version control
+        * E.g. there's a robot prokect that's highly reused with derivatives, but this is not reflected in their GitHub repository since people just don't use the GitHub features
+    * @penyuan: What if we focus on just a small list of projects that do lots of best practices?
+        * @moedn: Actually, don't need to do that because even without that there's already lots of useful data that the dashboard can try to detect, like: 
+            * SPDX license information
+            * Contributor guide(s)
+            * # maintainers
+            * communication channels
+            * @rafaellaantoniou: # of downloads
+            * @rafaellaantoniou: how of often it is accessed
+            * @rafaellaantoniou: documentation completeness
+            * @rafaellaantoniou: measures for replicability
+* @moedn: Analogy for buying a car -> you don't know what questions to ask even if you have lots of data about the car
+    * E.g. dashboard could have tooltips or explanations for each indicator on the dashboard
+    * @penyuan: Great point, we should definitely include explanations for each indicator on the dashboard
+* There should be some way for a project to flag they're looking for people
+    * Or to tag an issue
+
+We need some concrete ideas, so we used the Markdown pad @moedn created for brainstorming: 
+
+https://md.opensourceecology.de/FStnpjBKToeIjneyUb8yWA?both
+
+We'll need to have more deeper discussion within WP2.2 on all this, and don't forget the gamification side of things.
