@@ -1,25 +1,32 @@
 # Dashboard features list
 
-This document consolidates @penyuan's notes on all the brainstormed features we've come up with for the Open!Next work package (WP) 2.2 dashboard as of August 2021.
+This document consolidates @penyuan's notes on all the brainstormed features we've come up with for the Open!Next work package (WP) 2.2 dashboard as of August 2021. It also tries to group these features into different types of information needs that could be satisfied by the dashboard.
 
 ## relevant documents
 
 * Brainstorming document started on 2021-07-28: https://md.opensourceecology.de/FStnpjBKToeIjneyUb8yWA?both
 ## list of features
 
-* Summarise file types in a repository
+* File types in a repository
   * Classify into "mech/hardware/software/doc", etc.
   * Software and hardware languages
   * How much of each in absolute and relative terms
+* Types of contributions
+  * E.g. documentation, CAD, or software
+  * Relative share of contribution types by contributors
 * Number of open/closed issues
   * Time to first response/triage of new issues
   * Time to close
-  * Or issue resolution duration
+  * Number of open/closed issues
   * Distribution of the age of issues
-* Number of active contributors
+  * Is there active discussion on issues, such as: 
+    * How many issues have responses
+    * How frequent are responses in issue threads
+  * Time series
+* Number of active/inactive contributors
   * Need to define "active", perhaps show as "x contributors have been active in the past y months"
-* Number of inactive contributors
-* Proportions of active/inactive users
+  * Proportions of active/inactive users
+  * Time series
 * Number of commits
   * Absolute number
   * Rate
@@ -27,14 +34,13 @@ This document consolidates @penyuan's notes on all the brainstormed features we'
   * But for hardware, might be harder to use use this as data because: 
     * E.g. many mechanical engineering people don't even use version control
     * E.g. there's a robot project that's highly reused with derivatives, but this is not reflected in their GitHub repository since people just don't use the GitHub features
-* Measures of project activity level
-  * "Is a project a legacy project? is it active? etc.? is it well-maintained?"
-  * Can make use of other measures/metrics mentioned in this list like number of commits or contributors over time
+  * Time series
 * Network graphs and adjacency matrices
   * E.g. each node is a user with links representing interactions between users
   * Nodes can theoretically also be files in a project, but this might be hard for hardware files which are mostly in binary format
     * There's some work (Gopsill et al.) using the temporal proximity of file edits to infer directional dependency relationships. However, git commits mean files are often edited "simultaneously" within the same commit, so no directionality can be derived. Or can it?
   * Animated playback of how the graph changes over time
+  * Suggest other projects with similar graph characteristics
 * Centrality and modularity indices
   * As defined in Jeremy's paper
     * Centrality indicates the relative importance of all nodes in a graph. High index indicates the project is centered around one or few central people.
@@ -44,8 +50,12 @@ together. An average clustering coefficient indicates contributors are clustered
     * Core are the main and direct contributors to the repository
     * Mutant are contributions from forks
     * External are other people submitting contributions
+    * Proportions of each
 * Bus factor
   * Or a measure like "x% of commits can from y users"
+* Tags
+  * Such as skills provided or wanted
+  * Project development stage
 * Badges and achievements
   * For projects and people
   * Active and Inactive badge for projects and people
@@ -76,7 +86,9 @@ together. An average clustering coefficient indicates contributors are clustered
   * README file
   * Code of conduct
   * Has WP3 documentation guidelines/templates been used?
-* Communications channels
+* Manufacturing information/metadata
+  * I'm guessing WIF already implements some of this as part of WP3's collaborative manufacturing tool
+* Types of communications channels
 * Number of downloads or its rate
 * Number of forks
 * Number of followers
@@ -99,12 +111,25 @@ together. An average clustering coefficient indicates contributors are clustered
     * "there has been a steady increase in contributions over time"
     * "Individuals other than originators have modified it"
     * "if you contribute to this project, you can get x badge"
-* Include tooltips and explanations for different aspects of the dashboard
+* Tooltips and pop up explanations for different aspects of the dashboard
 * Way for a project/user to flag if they're actively looking for contributors/projects to contribute to
-* How editable are the files in this repository?
+* Are files editable?
 * Use of open file formats vs proprietary ones
 * How often is documentation updated/maintained?
 * Number of users who have built this hardware
 * "Typical skills of users"
   * profile of file types edited by the user (e.g. 75% SolidWorks, 20% python and 5% markdown)
-* 
+
+## types of needs
+
+Of the all the features listed above, how to map them into different information needs to be satisfied by the dashboard?
+
+* Activity level
+* Community organisation
+* Contributor profiles
+  * Such as the skills contributors have demonstrated or want to learn/practice
+* Documentation completeness
+* General popularity
+* New contributor friendliness
+* Skills
+  * Such as skills wanted or used by a project
