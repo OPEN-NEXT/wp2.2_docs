@@ -353,3 +353,93 @@ We need some concrete ideas, so we used the Markdown pad @moedn created for brai
 https://md.opensourceecology.de/FStnpjBKToeIjneyUb8yWA?both
 
 We'll need to have more deeper discussion within WP2.2 on all this, and don't forget the gamification side of things.
+
+## Dashboard prioritisation meeting 2021-09-01T11:15Z
+
+With @GoSFhg (Sonika), @moedn (Moe), Erik, @Elies30 (Elies), and @penyuan (Pen). Today's meeting is a follow up from the one on 2021-07-28 with @moedn @rafaellaantoniou (Rafaella), and @penyuan.
+
+* @penyuan gave summary of the previous meeting, plus another where @Elies30 suggested summarising what we've learned into a spreadsheet that is valuable as a higher-level look at how to prioritise what to develop for the WP2.2 dashboard. There are two tables in the document, one that relates stakeholders to information needs, and another that links a long list of specific, possible features in the dashboard to those information needs.
+    * @Elies30: The tables in the spreadsheet look comprehensive.
+        * At some point we should decide prioritisation and write specification for what we'll do.
+        * Knowing things like gamification or matchmaking are happening, what's missing in this sheet?
+        * Start a process to prioritise what can help with the four tools.
+        * Get @GoSFhg's feedback on stakeholder types to be better integrated with her work.
+        * Also, with @moedn's track record, get his eyes on the features and indicators and statements perhaps some evaluation on difficulty of each.
+        * As for Erik, hopefully can see how this is consistent with what you're doing.
+* @penyuan showed everyone what the table looks like right now.
+    * Feedback: 
+        * @moedn: Different dashboard presentation modes for the stakeholders
+            * E.g. manufacture and read-only replicator are similar -> they share very similar info needs and could be merged into one stakeholder?
+            * What's the use case of the board for owners and direct contributors -> they would know repo pretty well anyway i.e. they're info providers rather than consumer
+                * @penyuan: Yes, but they also have info needs such as monitoring how well the community is doing
+            * Regarding market researcher -> Suggest expanding to researchers in general
+        * @GoSFhg: 
+            * We also had discussion about stakeholders in WP3
+            * Since each stakeholder type can wear multiple hats
+            * We had "project owner" -> turned to "project core team" who have different roles and responsibilities
+            * Like direct vs indirect developers
+            * We had "community member" -> but looks like this is covered in other stakeholders
+            * I like this to establish common definitions -> consider standardising this in Open!Next! Especially WP6 including a page on the website about stakeholders and terminology.
+* Going over information needs (info needs) list: 
+    * @moedn: Info needs list looks good.
+        * My intuition is to merge "skills" with "contributor profiles"
+    * @GoSFhg: 
+        * Looks good. And makes sense in terms of her knowledge of interviews and user stories. E.g. collaborative manufacturing makes sense with this list of stakeholders and info needs.
+    * Erik: 
+        * As you may recall, I introduced skills ontology with it's skills actions and entities.
+            * E.g. operating a 3D printer, machine tools, 
+            * Rather than specific "skills" which is more user-side
+            * It's actually kind hard to define since it's topic-specific e.g. what do you mean when you say "this project needs CAD design" i.e. high level "skills" might change depending on context
+            * @penyuan: So, in other words, sometimes a "skill" is actually a context-dependent bundle of fine-grained skills/attributes that are defined in the ontology.
+* @moedn: If we can fulfill the needs of "project owners", "direct contributor", and "researchers" then looks like we can cover other stakeholders, too.
+    * Important to consider things stakeholders can't get right now through existing platforms.
+* Went through feature list
+    * @moedn: 
+        * Looks useful, but some look hard to implement
+        * To prioritise, I suggest working from statements, come up with more then decide on feature that feed into the statements
+        * Badges idea: Other than legal part, people want to know about documentation and maturity of project -> self-assessed badge for tech level which @moedn is working on (e.g. has been successfully independently replicated) and documentation readiness.
+    * Erik: 
+        * Think about motivation of contributors
+        * Business models
+    * @GoSFhg: I was thinking we have seven information needs. What about selecting top 3 or 4 to focus on.
+    * Erik: 
+        * Dashboard could help with matchmaking because I'm developing ontology, but WIF implements it, so dashboard could show -> Ask WIF about this next week, rather than prioritising it now.
+    * @penyuan: What about prioritising needs as activity level, documentation, and newcomer friendliness, the last of which might be helpful for WIF (ask them next week)
+        * @GoSFhg: Newcomer friendliness makes sense which also works with Eriks work
+* @Elies30 is back after having to step out for a while
+    * @penyuan recapped meeting so far
+      * We didn't get to gamification
+          * It's a lense with which to look at data
+      * Plan to get Max et al.'s WIF input on this at next Tuesday's meeting instead of giving them a full proposal
+* @Elies30: Feedback from anyone?
+    * @GoSFhg: Great if we can agree on a standardised set of definitions for Open!Next
+    * @Elies30: What features WIF chooses will be specific to them, but of course we have a bigger view today for a generic dashboard which is also important
+    * Erik: Sounds good, looking forward to it. Open source landscape is messy, and great to get some guidance in the form of dashboard.
+    * @Elies30: Material produced today is comprehensive and useful for a concise/short report in the end of the project.
+* @penyuan: **Can you explain how you made your top picks in the last step?**
+    * @GoSFhg: My perspective is benefit to stakeholders rather than particular role. Looking for which feature set would give most info. Choose factors that are important and cover the most things. Show if a project is alive and it's working well with others.
+    * Erik: I was more on the perspective of a user, someone who is looking to contribute or replicate. If so, what info would I need to evaluate the project? This includes the editability of files.
+    * @moedn: Those items are what I look for when scanning repos, or new information that's valuable like file types which is essential for me which also includes editability (but with work on my own I can figure out from file types). "I" means "replicator" or "indirect developer" in table.
+      * @moedn also opened an issue [here](https://github.com/OPEN-NEXT/wp2.2_docs/issues/1) that summarises his thoughts/suggestions. Thank you @moedn!
+* @Elies30: Open!Next is focused on SMEs who might to engage in OSH develop in their businesses
+    * They're like the "project owner" stakeholder in the table, so just remember to keep this in mind.
+    * @Elies30: What about approaching a real project owner like Stykka?
+        * @GoSFhg: They're very time limited, could even approach all of them for feedback. But it has to be a 30-minutes or less task.
+        * @Elies30: Another way of course if for WIF's input to represent a lot of project owners.
+* @Elies30: Does anything from today mesh well with Moe's work?
+    * @moedn: I'm working on metadata standard and search engine.
+
+Main points from the meeting: 
+
+* WP2.2 will meet next Monday (2021-09-06) to discuss this in preparation for the meeting with WIF the following afternoon.
+    * **TODO** Ask WIF whether they think the dashboard can specifically help with their implementation of the skills ontology and skills-based matchmaking. Because at today's meeting, we've focused on the "Activity level", "Documentation", and "Newcomer friendliness" information needs for now instead of "Contributor profiles".
+    * @penyuan asked the others what they based their prioritisation on above.
+* Since the dashboard is defining some terms for stakeholders and information needs, consider putting the rest of Open!Next in the loop (especially WP6) so we use the same terminology.
+* Suggested changes to the spreadsheet: 
+    * Merge "Manufacturer" and "Replicator" stakeholders.
+    * Expand "Market researcher" to "Researcher"(s) in general.
+    * The current "Skills" information need can likely be merged into "Contributor profile".
+* Some things to keep in mind: 
+    * Great to fit what WIF is working on while ensuring the dashboard remains a generic tool that has wider value beyond WIF (such as integration with the WP3 Wikibase instance).
+    * Be mindful of what features are already present in WIF and GitHub.
+    * WIF is a good representative of the many SME projects hosted on their platform.
