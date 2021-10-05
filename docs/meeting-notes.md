@@ -353,3 +353,45 @@ We need some concrete ideas, so we used the Markdown pad @moedn created for brai
 https://md.opensourceecology.de/FStnpjBKToeIjneyUb8yWA?both
 
 We'll need to have more deeper discussion within WP2.2 on all this, and don't forget the gamification side of things.
+
+## dashboard meeting 2021-10-05T14:30+01:00
+
+With @elies30 (Elies), @rafaellaantoniou (Rafaella), and @penyuan (Pen)
+
+* We had brief catch-up about the Open!Next book meeting earlier today
+* @penyuan plans to take leave 2021-11-01 to 2021-11-05
+  * Our regular WP2.2 meeting that week has been rescheduled to 2021-11-09T15:30Z
+* **Wikibase work with @moedn (Moe)**
+  * @penyuan is in continuing conversation with @moedn about embedding the dashboard into the upcoming Wikibase instance
+  * We need to communicate with Wikimedia Germany (WMDE) who not only provides the underlying Wikibase technology, but also development work on the instance's user-facing frontend, since they're part of who needs to make the commitment for the dashboard to be part of it
+  * We talked about the Venn diagram between WMDE, Open Source Ecology Germany, the Open Hardware Observatory, and the Fraunhofer Institute as they relate to WP3 and the Wikibase instance
+  * @moedn is busy working through 2021-10-15 on D3.3 which is the first demonstrator deliverable for the Wikibase instance, and @penyuan will be a reviewer for this deliverable
+    * This is great, since it will give us a good understanding of which parts there are in the Wikibase deliverable, who's responsible for what, how things fit together, plus better idea of their timeline
+  * After that *there is a scheduled meeting with @moedn on 2021-10-18 to come up with dashboard requirements specification for the purposes of the Wikibase instance*.
+  * **TODO** *@penyuan will reach out to @GoSFhg (Sonika) and @moedn to secure commitment (including agreement from WMDE) for the dashboard integration this month*.
+* **Wikifactory (WIF) planning**
+  * **TODO** *@penyuan will soon circulate an email to find a time for the first dashboard technical meeting with Wikifactory (WIF)*
+    * @elies30 and @rafaellaantoniou are invited since this first meeting should be pretty high-level
+    * Some items to discuss at the first meeting: 
+      * Timeline (see below for details)
+      * Best way for them to collaborate and stay in sync
+* **Project timeline**
+  * @penyuan drafted a rough timeline for the rest of our project here: https://md.opensourceecology.de/SD7DrNOcTGuOscPBqSHAbg?both#
+  * This timeline is a bit tight, but is this way for an important reason: 
+    * The WP3 validation period (i.e. for deliverables like the import/export tool, collaborative manufacturing, WIF's Cad Rooms, etc.) is February-March 2022
+    * It would be ideal if the dashboard can "piggyback" on the validation, which would also serve as a mutual commitment between WIF and WP2.2 on implementing and deploying the dashboard
+    * The development work will serve both WIF and the Wikibase instance, where the latter will lead to the more generic dashboard for the final WP2.2 deliverable in month 36
+  * **TODO** *@penyuan will confirm with @GoSFhg the following things*: 
+    * Exact dates for the validation, since every second matters for development, and so we can plan accordingly
+    * Better understand the validation methodology so that we at WP2.2 can do additional research/get feedback as necessary for our purposes
+* **Planning for report(s) and paper(s)**
+  * @elies30 reminded that it's a good idea to start writing things up now while still fresh in minds
+  * For a paper, potential tiles from specific/obscure to more general, e.g.: 
+    * "Defining key stakeholders in open source projects and capturing their requirements for a dashboard displaying metrics for their repositories"
+    * "Defining different stakeholders and their information needs when searching for open source hardware projects"
+    * "Identifying different types of stakeholders in open source hardware projects and their information needs"
+  * For the Open!Next report, we will obviously describe who worked together, and how, to come up with the big spreadsheet of stakeholders and informatin needs
+  * We recognised the somewhat ad-hoc nature of coming up with the spreadsheet in that it was compiled from meetings, notes, and partically from @GoSFhg's user stories, which is in contrast with a more formal "scientific" approach
+  * @elies30: What we could do is review past literature on doing this, which presumably uses some formal methods, then compare that against the Open!Next story of how our diverse range of backgrounds and experience was the resource from which we captured these stakeholders and information needs
+    * Need to think about the audience for this paper, perhaps one that isn't too focused on the scientific methods employed
+    * Perhaps at least find a conference in 2022 at which to present this
