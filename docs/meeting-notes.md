@@ -485,3 +485,5 @@ With @elies30 (Elies), @rafaellaantoniou (Rafaella), and @penyuan (Pen)
   * @elies30: What we could do is review past literature on doing this, which presumably uses some formal methods, then compare that against the Open!Next story of how our diverse range of backgrounds and experience was the resource from which we captured these stakeholders and information needs
     * Need to think about the audience for this paper, perhaps one that isn't too focused on the scientific methods employed
     * Perhaps at least find a conference in 2022 at which to present this
+* **Bath Impact Acceleration fund**
+  * @rafaellaantoniou gave an update on possibly applying for this money (GBP 1000) to help promote the open source hardware work at Bath
