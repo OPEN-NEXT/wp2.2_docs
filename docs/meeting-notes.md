@@ -336,7 +336,7 @@ With @moedn (Moe), @rafaellaantoniou (Rafaella), and @penyuan (Pen)
         * @moedn: Actually, don't need to do that because even without that there's already lots of useful data that the dashboard can try to detect, like: 
             * SPDX license information
             * Contributor guide(s)
-            * # maintainers
+            * maintainers
             * communication channels
             * @rafaellaantoniou: # of downloads
             * @rafaellaantoniou: how of often it is accessed
