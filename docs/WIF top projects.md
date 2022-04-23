@@ -40,7 +40,7 @@ Lorem ipsum.
 
 License - determined by README, license file, project metadata, or a one-minute search in the repository's files. If not then it's not considered open source hardware.
 
-## Top projects from two "groups"
+## top projects from two "groups"
 
 After the discussion with @elies30 on 2022-04-01, we decided to group the projects in the spreadsheet into two groups: 
 
@@ -52,3 +52,7 @@ De-duplicate projects among the two groups (which shouldn't be many since there'
 Also, [one project](https://wikifactory.com/+wikifactory/mayku-challenge-template) is actually just a template for the Mayku design challenge by Wikifactory, I will exclude it.
 
 Also ask Caroline if they can add specific projects to this list.
+
+## so, which projects did we end up with?
+
+There are 18 projects meeting the criteria above that have activity in the past 6 months, 27 if we include those with activity in the past 12 months (`WIF users to survey` sheet). In both cases, I excluded one project which is just a documentation template for an event run by Wikifactory (the [Mayky challenge template](https://wikifactory.com/+wikifactory/mayku-challenge-template)).
