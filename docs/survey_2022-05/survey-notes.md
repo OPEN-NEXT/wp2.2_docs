@@ -144,8 +144,10 @@ yes/no
 
 ## survey deployment
 
+Deployed on the EUSurvey platform.
 ### via Wikifactory
 
+Caroline from Wikifactory sent the survey to the Wikifactory users I've identified in `WIF top projects.fods` via personalised emails, plus a follow up 4 days later to remind them to complete the survey.
 ### at D3.5 validation day
 
 Scheduled for the afternoon of 2022-05-27.
