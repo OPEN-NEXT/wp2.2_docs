@@ -153,3 +153,19 @@ Caroline from Wikifactory sent the survey to the Wikifactory users I've identifi
 Scheduled for the afternoon of 2022-05-27.
 
 For details, see notes Moe circulated to Pen on 2022-05-03T16:55+01:00.
+
+### via Moe/WP3
+
+Moe sent the survey via emails to his network within/out of Open!Next. Here's where it went according to Moe's email on 2022-06-20 ("Re: 🔎 Validation & further development of OPEN_NEXT ICT tools"): 
+
+* OPENNEXT Consortium + Demonstrators
+  * OSH SME (pilots and demonstrators): 35
+  * OSH research fablab/makerspace: 38
+  * fablab/makerspace: 21
+  * other consortium partner: 24
+* Open Source Ecology Germany
+  * OSH community (OSH without relevant commercial use) (incl. FabCity Hamburg, Appropedia, Open-KnowHow): 406
+* D3.1 interviewees
+  * OSH SME: 11
+  * fablab/makerspace: 2
+  * OSH community (OSH without relevant commercial use): 6
