@@ -169,3 +169,7 @@ Moe sent the survey via emails to his network within/out of Open!Next. Here's wh
   * OSH SME: 11
   * fablab/makerspace: 2
   * OSH community (OSH without relevant commercial use): 6
+
+### acknowledgements
+
+We received seven complete responses to the survey. The following respondents indicated a willingness to be named and acknowledged: Martin Häuer, Max Kampik, Johannes Střelka-Petz (from validation day), Jean-François Boujut, James Jones (CubeSpawn) (from survey).
